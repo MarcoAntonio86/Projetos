@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+}
+header{
+    border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: center;
+}
+main p{ border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: center;
+   
+}
+footer ol{
+    border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: left center;
+
+}
+body figure  {
+    text-align: center;
+    
+}
