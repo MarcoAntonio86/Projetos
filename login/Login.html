@@ -16,7 +16,11 @@
         </header>
         <main>
             <p>Por favor se idêntifique, isso é para a segurança de seus dados.</p>
-            <p><img src="Imagem/cadeado.png" alt="Um cadeado e chave" width="50%"></p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/cadeado/cadeado300.png">
+                <source media="(max-width: 1050px)" srcset="imagens/cadeado/cadeado500.png">
+                <img src="imagens/cadeado/cadeado.png" alt="Uma chave e cadeado">
+            </picture>
             <form action="cadastro.php" method="post" autocomplete="on">
                 <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome" required minlength="5"
                         maxlength="10" size="10" placeholder="Usuário"></p>
