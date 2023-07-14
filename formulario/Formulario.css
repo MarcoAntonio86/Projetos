@@ -1,15 +1,19 @@
 
 body{
     background-color: rgb(199, 208, 217);
-}
-section{
     border: solid;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    
+}
+form{
+    border: solid;
+    padding: 10px;
 }
 #cadastro, label, input{
       font-size: 15px;
+}
+footer{
+    border: solid;
 }
     
     
