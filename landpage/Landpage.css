@@ -17,7 +17,11 @@ footer ol{
     text-align: left center;
 
 }
+picture {
+    display: flex;
+    justify-content: center;
+}
 picture img{
-    text-align: center;
+    margin: 0 auto;
     
 }
