@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+header{
+    border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: center;
+}
+main p{ border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: center;
+   
+}
+footer ol{
+    border: solid 5px gray;
+    background-color: antiquewhite;
+    text-align: left center;
+
+}
+picture {
+    display: flex;
+    justify-content: center;
+}
+picture img{
+    margin: 0 auto;
+    
+}
