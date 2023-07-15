@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <section id = "login">
+    
         <header>
             <h1>LOGIN DE ACESSO</h1>
             <br>
@@ -22,22 +22,19 @@
                 <source media="(max-width: 1050px)" srcset="imagens/cadeado/cadeado500.png">
                 <img src="imagens/cadeado/cadeado.png" alt="Uma chave e cadeado">
             </picture>
+            
             <form action="cadastro.php" method="post" autocomplete="on">
-                <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome" required minlength="5"
-                        maxlength="10" size="10" placeholder="Usuário"></p>
-                <p><label for="isenha">Senha</label> <input type="password" name="senha" id="isenha" required
-                        minlength="8" maxlength="12" size="12" placeholder="Senha"></p>
-                <p><input type="submit" name="" id=""></p>
-                <p><input type="reset" name="" id=""></p>
-                <p>Ao clicar abaixo você concorda com a nossa politica de privacidade que seria Lorem ipsum dolor sit
-                    amet
-                    consectetur adipisicing elit. Quas tempora eius sequi aliquid explicabo, est iure voluptatibus
-                    pariatur
-                    vitae, tenetur error quo neque dolorum ad eveniet modi nulla obcaecati odit.</p>
-                <p><input type="checkbox" required> Eu concordo com os termos da politica de privacidade </p>
+                <label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required minlength="5"
+                        maxlength="10" size="10" placeholder="Usuário">
+                <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required
+                        minlength="8" maxlength="12" size="12" placeholder="Senha">
+                <input type="submit" name="" id="">
+                 <br><span>Esqueceu a sua senha?</span>
+                <button onclick="resetPassword()">Redefinir Senha</button>
+              
     
             </form>
-    </section>
+    
         </main>
 
 
