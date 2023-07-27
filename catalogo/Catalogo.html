@@ -17,7 +17,7 @@
     <main>
         <section id="produtos">
             <ul>
-                <li>
+                <li id = teste>
                     <picture>
                         <source media="(max-width: 750px)" srcset="imagens/soldado/soldado150.jpg">
                         <source media="(max-width: 1050px)" srcset="imagens/soldado/soldado250.jpg">
@@ -26,9 +26,10 @@
 
                     <p>Tenha a melhor equipe tática ao seu lado nas missões mais dificeis, kit soldadinhos de plastico
                         XYZ no valor de R$ xx,xx, isso mesmo R$ xx,xx, não percam essa promoção.</p>
+                    <input type="button" value="Carrinho" onclick="compra()">
                 </li>
                 <hr>
-                <li>
+                <li id = teste2>
                     <picture>
                         <source media="(max-width: 750px)" srcset="imagens/camiseta/camiseta150.png">
                         <source media="(max-width: 1050px)" srcset="imagens/camiseta/camiseta250.png">
@@ -105,6 +106,7 @@
         </ol>
         &reg;&copy;
     </footer>
+    <script src="catalogo.js"></script>
 
 </body>
 
