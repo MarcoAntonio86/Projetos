@@ -151,14 +151,16 @@ function changeStyle(button, primeiroClick) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-var rodape = document.getElementById (`rodape`)
+var rodape = document.getElementById (`rodape`);
 rodape.addEventListener('mouseenter', entrou);
 rodape.addEventListener('mouseleave', saiu);
 
+
 function entrou() {
-    rodape.style.background='blue';
+    rodape.style.background='aqua';
     rodape.style.fontWeight = 'bold';
     rodape.style.textDecoration = 'underline';
+
 }
 
 function saiu () {
@@ -166,6 +168,8 @@ function saiu () {
     rodape.style.font = '';
     rodape.style.textDecoration = 'none';
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
