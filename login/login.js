@@ -26,3 +26,14 @@ enviarBtn.addEventListener('click', () => {
 });
 
 document.addEventListener('input', verificarCamposObrigatorios);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var redefinir = document.getElementById('Redefinir');
+redefinir.addEventListener('click', clicar);
+
+function clicar() {
+      redefinir.style.background= 'green';
+      redefinir.style.fontWeight= 'bold';
+      redefinir.style.textDecoration= 'underline'
+}
