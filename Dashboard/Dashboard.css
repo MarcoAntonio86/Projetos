@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(181, 201, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+label{
+    font-size: 15px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(151, 179, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    border: solid 3px black;
+    margin-bottom: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vendas {
+    background-color: rgb(208, 224, 255);
+    padding: 10px;
+    border: solid 3px black;
+}
+
+.usuarios{
+    background-color: rgb(208, 224, 255);
+    padding: 10px;
+    border: solid 3px black;
+}
+
+.visitas{
+    background-color: rgb(208, 224, 255);
+    padding: 10px;
+    border: solid 3px black;
+}
+
+#botao_vendas  {
+    background-color: yellowgreen;
+}
+
+#botao_usuarios {
+    background-color: yellowgreen;
+}
+
+#botao_visitas {
+    background-color: yellowgreen;
+}
+
+

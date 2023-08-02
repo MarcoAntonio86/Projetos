@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu Dashboard</h1>
+    <div class="dashboard">
+        <div class="card">
+            <h2>Vendas Mensais</h2>
+            <p>Total de Vendas: <span id="totalVendas">R$ 50.000,00</span></p>
+            <p>Vendas este mês: <span id="vendasMes">R$ 10.000,00</span></p>
+        </div>
+        <div class="card">
+            <h2>Usuários Ativos</h2>
+            <p>Total de Usuários: <span id="totalUsuarios">500</span></p>
+            <p>Usuários Ativos: <span id="usuariosAtivos">200</span></p>
+        </div>
+        <div class="card">
+            <h2>Visitas ao Site</h2>
+            <p>Total de Visitas: <span id="totalVisitas">10.000</span></p>
+            <p>Visitas hoje: <span id="visitasHoje">500</span></p>
+        </div>
+    </div>
+
+    <script>
+        // Simulando dados fictícios
+        const dadosDashboard = {
+            totalVendas: "R$ 50.000,00",
+            vendasMes: "R$ 10.000,00",
+            totalUsuarios: 500,
+            usuariosAtivos: 200,
+            totalVisitas: 10000,
+            visitasHoje: 500
+        };
+
+        // Atualizar os elementos HTML com os dados fictícios
+        document.getElementById('totalVendas').textContent = dadosDashboard.totalVendas;
+        document.getElementById('vendasMes').textContent = dadosDashboard.vendasMes;
+        document.getElementById('totalUsuarios').textContent = dadosDashboard.totalUsuarios;
+        document.getElementById('usuariosAtivos').textContent = dadosDashboard.usuariosAtivos;
+        document.getElementById('totalVisitas').textContent = dadosDashboard.totalVisitas;
+        document.getElementById('visitasHoje').textContent = dadosDashboard.visitasHoje;
+    </script>
+</body>
+</html>
