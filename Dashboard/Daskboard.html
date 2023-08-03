@@ -17,7 +17,7 @@
             size="10">
             <label for="vendasTotal"> Vendas Totais: </label> <input type="number" id="vendasTotal" name="vendasTotal" required minlength="1"
             size="10">
-            <input type="submit" name="botao_vendas" id="botao_vendas" value="Enviar">
+            <input type="button" name="botao_vendas" id="botao_vendas" value="Enviar">
         </section>
         <section class="usuarios">
             <h2>Usuarios</h2>
@@ -25,7 +25,7 @@
              size="10">
              <label for="usuariosAtivos"> Numero de Usuários Ativos: </label> <input  type="number" id="usuariosAtivos" name="usuariosAtivos" required minlength="1" 
             size="10">
-            <input type="submit" name="botao_usuarios" id="botao_usuarios" value="Enviar">
+            <input type="button" name="botao_usuarios" id="botao_usuarios" value="Enviar">
         </section>
 
         <section class="visitas">
@@ -34,13 +34,22 @@
             size="10">
             <label for="visitasHoje"> Visitas de Hoje: </label> <input type="number" id="visitasHoje" name=" visitasHoje" required minlength="1" 
             size="10">
-            <input type="submit" name="botao_visitas" id="botao_visitas" value="Enviar">
+            <input type="button" name="botao_visitas" id="botao_visitas" value="Enviar">
         </section>
+        
+        
     </main>
 
     <footer>
 
     </footer>
+    <canvas id="grafico" width="400" height="400"></canvas>
+    <canvas id="grafico2" width="400" height="400"></canvas>
+    <canvas id="grafico3" width="400" height="400"></canvas>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+    <script src="Dashboard.js"></script>
+   
     
 </body>
 </html>
