@@ -4,7 +4,7 @@ rodape.addEventListener('mouseenter', entrar);
 rodape.addEventListener('mouseleave', sair);
 
 function entrar() {
-    rodape.style.background= 'red';
+    rodape.style.background= 'aqua';
     rodape.style.fontWeight= 'bold';
     rodape.style.textDecoration= 'underline';
 }
