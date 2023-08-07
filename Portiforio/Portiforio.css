@@ -91,7 +91,43 @@ header {
     
 }
 
-.text{
-    color:;
+.container-text {
+    padding: 150px 0 0 130px;
+    
 }
+
+    .text {
+        color: blue;
+        font-size: 30px;
+    }
+
+    .redes-sociais a{
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    button{
+        color: blue;
+        background: aqua;
+        padding: 5px;
+        border-radius: 45px;
+        font-size: 20px;
+        width: 150px;
+        text-decoration: underline;
+        cursor: pointer;}
+    button:hover{
+        color: white;
+        background: blue;
+        transition: 0.5s;
+    }  
+    
+    .sobre{
+        margin-top: 10px;
+    }
+
+    .descricao {
+        color: blue;
+        font-size: 30px;
+        display: none;
+    }
 
