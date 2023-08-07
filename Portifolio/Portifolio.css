@@ -7,19 +7,24 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    
 }
 
-body{
-    overflow: hidden;
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
 }
 
-.background{
-    background: black;
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100vh;
 }
+
+
 
 header {
     display: flex;
@@ -35,29 +40,33 @@ header {
     gap: 3rem;
     font-weight: 300;
     cursor: pointer;
+    position: fixed;
 
 }
 
-.logo {
+#logo {
     display: flex;
     font-weight: 300;
     cursor: pointer;
     color: blue;
     font: 20px;
     border: 1px solid;
-    border-radius: 500px;
+    border-radius: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    height: 50px;
-    width: 50px;
+    justify-content:  center;
+    font-size: 60px;
+    height: 100px;
+    width: 110px;
     background: transparent;
+    
+    
+    
     
     
 }
 
-.logo :hover{
+#logo :hover{
     color: #2ecc71;
     transition: 0.3s;
 }
@@ -115,19 +124,53 @@ header {
         width: 150px;
         text-decoration: underline;
         cursor: pointer;}
-    button:hover{
-        color: white;
-        background: blue;
-        transition: 0.5s;
-    }  
+    
     
     .sobre{
         margin-top: 10px;
     }
+    .home{
+        margin-top: 10px;
+    }
+    .serviços{
+        margin-top: 10px;
+    }
+    .trabalhos{
+        margin-top: 10px;
+    }
 
-    .descricao {
+    
+    .container-text2 {
+        padding: 150px 0 0 130px;
+    }
+
+    .text2{
         color: blue;
         font-size: 30px;
-        display: none;
     }
+
+    .container-text3{
+        padding: 150px 0 0 130px;
+    }
+
+    .text3 {
+        color: blue;
+        font-size: 30px;
+    }
+
+    .container-text4{
+        padding: 150px 0 0 130px;
+    }
+
+    .text4 {
+        color: blue;
+        font-size: 30px;
+    }
+
+    .container-text5{
+        padding: 150px 0 0 130px;
+    }
+    .text5 {
+        color: blue;
+        font-size: 30px;}
 
