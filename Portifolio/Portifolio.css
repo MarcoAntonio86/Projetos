@@ -48,7 +48,7 @@ header {
     display: flex;
     font-weight: 300;
     cursor: pointer;
-    color: blue;
+    color: rgb(177, 177, 179);
     font: 20px;
     border: 1px solid;
     border-radius: 100%;
@@ -72,7 +72,7 @@ header {
 }
 
 .cabeçalho-link a {
-    color: blue;
+    color: rgb(177, 177, 179);
     font: 12px;
     font-size: 30px;
 
@@ -106,8 +106,12 @@ header {
 }
 
     .text {
-        color: blue;
+        color:  rgb(217, 217, 247);;
         font-size: 30px;
+    }
+    #ola{
+        
+        color:  rgba(149, 230, 245, 0.932); 
     }
 
     .redes-sociais a{
@@ -145,7 +149,7 @@ header {
     }
 
     .text2{
-        color: blue;
+        color: rgb(217, 217, 247);
         font-size: 30px;
     }
 
@@ -154,7 +158,7 @@ header {
     }
 
     .text3 {
-        color: blue;
+        color:  rgb(217, 217, 247);
         font-size: 30px;
     }
 
@@ -163,7 +167,7 @@ header {
     }
 
     .text4 {
-        color: blue;
+        color:  rgb(217, 217, 247);
         font-size: 30px;
     }
 
@@ -171,6 +175,34 @@ header {
         padding: 150px 0 0 130px;
     }
     .text5 {
-        color: blue;
+        color:  rgb(217, 217, 247);
         font-size: 30px;}
+
+    a {
+        color: white;
+        font-size: 30px;}
+
+     @media (max-width: 1429px) {
+        header {
+        display: none;
+        
+        }
+
+     }   
+
+     #subir{
+        color: black;
+        background: aqua;
+        padding: 5px;
+        border-radius: 45px;
+        font-size: 20px;
+        width: 150px;
+        text-decoration: underline;
+        cursor: pointer;
+     }
+     #subir:hover{
+        color: white;
+        background: blue;
+        transition: 0.5s;
+     }
 

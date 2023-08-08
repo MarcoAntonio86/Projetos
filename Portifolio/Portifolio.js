@@ -1,6 +1,6 @@
-const botaoSobreMim = document.querySelector('sobre');
-const descricao = document.getElementById('descricao');
+var subir = document.getElementById('subir');
+subir.addEventListener('click', acima);
 
-botaoSobreMim.addEventListener('click', function() {
-  descricao.style.display = descricao.style.display === 'none' ? 'block' : 'none';
-});
+function acima() {
+    window.scrollTo(0, 0);
+}

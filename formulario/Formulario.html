@@ -13,20 +13,21 @@
         <h1>PESQUISA SOBRE O QUE VOCÊ ACHA DA TI</h1>
         
         <hr>
+    <main>
         <form action="dados.php" id="cadastro" autocomplete="on" method="post">
             
                 <p> <label for="nome">Nome:</label><input type="text" name="Nome" id="nome" required minlength="5"
-                        maxlength="15" size="15">
-                    <p<label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome"
-                            required minlength="5" maxlength="15" size="15">
-                        <label for="cpf">CPF:</label> <input type="text" name="cpf" id="cpf" required size="14"
-                            minlength="11" maxlength="14">
-                </p>
+                        maxlength="15" size="15"></p>
+                <p><label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome"
+                            required minlength="5" maxlength="15" size="15"></p>
+                <p><label for="cpf">CPF:</label> <input type="text" name="cpf" id="cpf" required size="14"
+                            minlength="11" maxlength="14"></p>
+                
                 <p><label for="tel">Telefone:</label> <input type="text" name="tel" id="tel" required minlength="8"
-                        maxlength="14" size="14">
-                    <label for="cel">Celular:</label> <input type="text" name="cel" id="cel" required minlength="9"
-                        maxlength="16" size="16">
-                </p>
+                        maxlength="14" size="14"></p>
+                <p><label for="cel">Celular:</label> <input type="text" name="cel" id="cel" required minlength="9"
+                        maxlength="16" size="16"></p>
+                
                 <p>
 
                     Estado:<select name="Estado" id="Estado" required>
@@ -60,17 +61,22 @@
                         <option value="28">Tocantis</option>
 
                     </select>
-
-                    <label for="cidade">Cidade:</label><input type="text" name="cidade" id="cidade" required
-                        minlength="5" maxlength="20" size="20">
                 </p>
+
+                    <p><label for="cidade">Cidade:</label><input type="text" name="cidade" id="cidade" required
+                        minlength="5" maxlength="20" size="20">
+                    </p>
+                
                 <p><label for="bairro">Bairro:</label><input type="text" name="bairro" id="bairro" required
                         minlength="5" maxlength="20" size="20">
-                    <label for="rua">Rua:</label><input type="text" name="rua" id="rua" required minlength="5"
+                </p>
+                <p> <label for="rua">Rua:</label><input type="text" name="rua" id="rua" required minlength="5"
                         maxlength="20" size="20">
-                    <label for="numero">Numero:</label><input type="number" name="numero" id="numero" required
+                </p>
+                <p><label for="numero">Numero:</label><input type="number" name="numero" id="numero" required
                         minlength="1" maxlength="9999" size="9999">
                 </p>
+                
             
             <br>
             <form action="dados.php" id="cadastro" autocomplete="on" method="post">
@@ -124,6 +130,7 @@
 
 
         </form>
+    </main>
 
         <footer id="rodape">
             

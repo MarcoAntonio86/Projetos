@@ -61,4 +61,14 @@ main{
     background-color: yellowgreen;
 }
 
+@media (max-width: 520px) 
+{
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
