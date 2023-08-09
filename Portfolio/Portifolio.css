@@ -1,208 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Poppins", sans-serif;
-    font-size: 50px;
-    
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: "Poppins", sans-serif;
+	font-size: 50px;
 }
 
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 120px;
 }
 
 body {
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
 }
-
-
 
 header {
-    display: flex;
-    justify-content: space-around;
-    max-width: 100%;
-    align-items: center;
-    text-align: center;
-    padding-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+	align-items: center;
+	text-align: center;
+	padding-top: 1rem;
 }
 
-.cabeçalho-link{
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    cursor: pointer;
-    position: fixed;
-
+.cabeçalho-link {
+	display: flex;
+	gap: 3rem;
+	font-weight: 300;
+	cursor: pointer;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	justify-content: center;
 }
 
 #logo {
-    display: flex;
-    font-weight: 300;
-    cursor: pointer;
-    color: rgb(177, 177, 179);
-    font: 20px;
-    border: 1px solid;
-    border-radius: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content:  center;
-    font-size: 60px;
-    height: 100px;
-    width: 110px;
-    background: transparent;
-    
-    
-    
-    
-    
+	display: flex;
+	font-weight: 300;
+	cursor: pointer;
+	color: rgb(177, 177, 179);
+	font: 20px;
+	border: 1px solid;
+	border-radius: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 60px;
+	height: 100px;
+	width: 110px;
+	background: transparent;
 }
 
-#logo :hover{
-    color: #2ecc71;
-    transition: 0.3s;
+#logo :hover {
+	color: #2ecc71;
+	transition: 0.3s;
 }
 
 .cabeçalho-link a {
-    color: rgb(177, 177, 179);
-    font: 12px;
-    font-size: 30px;
-
+	color: rgb(177, 177, 179);
+	font: 12px;
+	font-size: 30px;
 }
 
-.cabeçalho-link a:hover{
-    color: #2ecc71;
-    transition: 0.3s;
+.cabeçalho-link a:hover {
+	color: #2ecc71;
+	transition: 0.3s;
 }
-.cabeçalho-link button{
- color: black;
- background: aqua;
- padding: 5px;
- border-radius: 45px;
- font-size: 20px;
- width: 150px;
- text-decoration: underline;
- cursor: pointer;
- 
+.cabeçalho-link button {
+	color: black;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
 }
 .cabeçalho-link button:hover {
-    color: white;
-    background: blue;
-    transition: 0.5s;
-    
+	color: white;
+	background: blue;
+	transition: 0.5s;
 }
 
 .container-text {
-    padding: 150px 0 0 130px;
-    
+	margin-top: 100px;
+	display: flex;
+    font-size: 20px;
+	justify-content: center;
+    align-items: center;
 }
 
-    .text {
-        color:  rgb(217, 217, 247);;
-        font-size: 30px;
-    }
-    #ola{
-        
-        color:  rgba(149, 230, 245, 0.932); 
-    }
+.text {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .redes-sociais a{
-        padding: 10px;
-        font-size: 30px;
-    }
+.text p{
+    width: 80%;
+}
+#ola {
+	color: rgba(149, 230, 245, 0.932);
+}
 
-    button{
-        color: blue;
-        background: aqua;
-        padding: 5px;
-        border-radius: 45px;
-        font-size: 20px;
-        width: 150px;
-        text-decoration: underline;
-        cursor: pointer;}
-    
-    
-    .sobre{
-        margin-top: 10px;
-    }
-    .home{
-        margin-top: 10px;
-    }
-    .serviços{
-        margin-top: 10px;
-    }
-    .trabalhos{
-        margin-top: 10px;
-    }
+.redes-sociais a {
+	padding: 10px;
+	font-size: 30px;
+}
 
-    
-    .container-text2 {
-        padding: 150px 0 0 130px;
-    }
+button {
+	color: blue;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
+}
 
-    .text2{
-        color: rgb(217, 217, 247);
-        font-size: 30px;
-    }
+.sobre {
+	margin-top: 10px;
+}
+.home {
+	margin-top: 10px;
+}
+.serviços {
+	margin-top: 10px;
+}
+.trabalhos {
+	margin-top: 10px;
+}
 
-    .container-text3{
-        padding: 150px 0 0 130px;
-    }
+.container-text2 {
+    margin-top: 100px;
+	display: flex;
+    font-size: 20px;
+	justify-content: center;
+    align-items: center;
+}
 
-    .text3 {
-        color:  rgb(217, 217, 247);
-        font-size: 30px;
-    }
+.text2 {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .container-text4{
-        padding: 150px 0 0 130px;
-    }
+.container-text3 {
+	padding: 150px 0 0 130px;
+}
 
-    .text4 {
-        color:  rgb(217, 217, 247);
-        font-size: 30px;
-    }
+.text3 {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+}
 
-    .container-text5{
-        padding: 150px 0 0 130px;
-    }
-    .text5 {
-        color:  rgb(217, 217, 247);
-        font-size: 30px;}
+.container-text4 {
+	padding: 150px 0 0 130px;
+}
 
-    a {
-        color: white;
-        font-size: 30px;}
+.text4 {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+}
 
-     @media (max-width: 1429px) {
-        header {
-        display: none;
-        
-        }
+.container-text5 {
+	padding: 150px 0 0 130px;
+}
+.text5 {
+	color: rgb(217, 217, 247);
+	font-size: 30px;
+}
 
-     }   
+a {
+	color: white;
+	font-size: 30px;
+}
 
-     #subir{
-        color: black;
-        background: aqua;
-        padding: 5px;
-        border-radius: 45px;
-        font-size: 20px;
-        width: 150px;
-        text-decoration: underline;
-        cursor: pointer;
-     }
-     #subir:hover{
-        color: white;
-        background: blue;
-        transition: 0.5s;
-     }
+@media (max-width: 1429px) {
+	header {
+		display: none;
+	}
+}
 
+#subir {
+	color: black;
+	background: aqua;
+	padding: 5px;
+	border-radius: 45px;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#subir:hover {
+	color: white;
+	background: blue;
+	transition: 0.5s;
+}
